@@ -21,7 +21,7 @@ body {
 }
 
 .map-background {
-    background-image: url('map.jpg');
+    background-image: url("map.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -111,6 +111,15 @@ body {
     background-color: rgba(76, 175, 80, 1);
 }
 
+.house-plot.occupied-multi {
+    background-color: rgba(175, 76, 80, 0.8);
+    color: white;
+}
+
+.house-plot.occupied-multi:hover {
+    background-color: rgba(175, 76, 80, 1);
+}
+
 .plot-info {
     position: absolute;
     background-color: rgba(0, 0, 0, 0.9);
@@ -162,6 +171,9 @@ body {
 
 .legend-color.occupied {
     background-color: rgba(76, 175, 80, 0.8);
+}
+.legend-color.occupied-multi {
+    background-color: rgba(175, 76, 80, 0.8);
 }
 
 @media (max-width: 1000px) {
